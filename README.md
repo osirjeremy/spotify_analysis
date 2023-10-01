@@ -1,5 +1,5 @@
 # Exploring my Spotify Music 'Taste Profile' Using Machine Learning
-Using the Spotipy API, I pulled my "Top Tracks" from 2017 - 2021 and used the OneClass Support Vector Machine (OneClassSVM) algorithm from Python's scikit-learn library to visualize my music 'taste profile' based on several song attributes that Spotify provides including:
+Using Spotify's SPOTIPY API, I pulled attributes describing songs that me and 2 other individuals had 'favorited' on Spotify, with the goal of comparing our musical tastes using Machine Learning. I used the OneClass Support Vector Machine (OneClassSVM) algorithm from Python's scikit-learn library to visualize our music 'taste profile' based on several song attributes that Spotify provides including:
  - Beats Per Minute (BPM) — The tempo of the song.
  - Energy — The higher the value, the more energetic.
  - Danceability — The higher the value, the more danceable the track
@@ -7,13 +7,20 @@ Using the Spotipy API, I pulled my "Top Tracks" from 2017 - 2021 and used the On
  - Valence — The higher the value, the more positive the mood.
  - Length — The duration of the song.
  - Acousticness — The higher the value the more acoustic the song
- - Key — The key the track is in.
  - Instrumentalness — the higher the value, the fewer the vocals
  - Liveness — higher value indicate the presence of a live audience
- - Mode —  indicates the modality (major or minor) of a track
 
 The code to extract the songs using the Spotipy API can be found in the Jupyter Notebook files that start with "extract_..."
 
-The code to analyze the songs can be found in the Jupyter Notebook file titled "analysis_top_tracks"
+The code to analyze the songs can be found in the Jupyter Notebook file titled "eda_top_tracks"
 
-More info on the Spotipy API can be found here: https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features
+Below are some charts comparing 3 individual's Music Tastes. Can you guess who the Gen Z profile is? :)
+![Screenshot 2023-10-01 at 11 44 00 AM](https://github.com/osirjeremy/spotify_analysis/assets/8055445/2b9cda97-3bee-49e5-a5b6-8502a4e0e6c9)
+
+
+This is a visualization of an individual's music taste profile using PCA and OneClassSVM algorithms. The orange-shaded area represents the profile that the algorithm learned. I added labels to show my favorite Taylor Swift songs.
+![ml_music_profile_b](https://github.com/osirjeremy/spotify_analysis/assets/8055445/da62598c-1177-4b38-a96a-aca4426fdc3d)
+
+These charts compare the average feature values for the 3 individuals' favorite Spotify songs
+![Screenshot 2023-10-01 at 11 47 40 AM](https://github.com/osirjeremy/spotify_analysis/assets/8055445/922b4e9a-dae9-4b3f-9b39-b6888440a000)
+
