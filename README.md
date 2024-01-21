@@ -22,7 +22,6 @@ These charts compare the attribute distributions for the 3 individuals' favorite
 ![Screenshot 2023-10-01 at 11 47 40 AM](https://github.com/osirjeremy/spotify_analysis/assets/8055445/922b4e9a-dae9-4b3f-9b39-b6888440a000)
 
 Finally, this is a visualization of an individual's music taste profile using Principal Component Aanalysis and OneClassSVM algorithms. The orange-shaded area represents the music taste boundary that the algorithm learned. I added labels to show my favorite Taylor Swift songs.
-
 ![ml_music_profile_b](https://github.com/osirjeremy/spotify_analysis/assets/8055445/da62598c-1177-4b38-a96a-aca4426fdc3d)
 
 
