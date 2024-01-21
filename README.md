@@ -14,8 +14,9 @@ The code to extract the songs using the Spotipy API can be found in the Jupyter 
 
 The code to analyze the songs can be found in the Jupyter Notebook file titled "eda_top_tracks"
 
-Below are some charts comparing 3 individual's Music Tastes. Can you guess which the Gen Z profile is? :)
-![Screenshot 2023-10-01 at 11 44 00 AM](https://github.com/osirjeremy/spotify_analysis/assets/8055445/2b9cda97-3bee-49e5-a5b6-8502a4e0e6c9)
+Below are some charts comparing 4 individual's Music Tastes. Can you spot the Gen Z profile? :)
+
+![radar_charts_side_by_side_large_with_legend_cyberpunk_title_colored_right_spaced_white_bg](https://github.com/osirjeremy/spotify_analysis/assets/8055445/d05ca610-23cb-4b3c-9aba-8337b685a71c)
 
 
 This is a visualization of an individual's music taste profile using Principal Component Aanalysis and OneClassSVM algorithms. The orange-shaded area represents the music taste boundary that the algorithm learned. I added labels to show my favorite Taylor Swift songs.
