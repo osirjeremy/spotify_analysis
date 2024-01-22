@@ -1,4 +1,4 @@
-# Exploring me and my friends' Spotify Music 'Taste Profiles' Using Machine Learning
+# Exploring Spotify Music 'Taste Profiles' Using Machine Learning
 Using Spotify's SPOTIPY API, I pulled attributes describing thousands of songs that me and 3 other friends had 'favorited' on Spotify, with the goal of comparing our musical tastes using Machine Learning. I used the OneClass Support Vector Machine (OneClassSVM) algorithm from Python's scikit-learn library to visualize each of our music 'taste profiles' based on several song attributes that Spotify provides including:
  - Beats Per Minute (BPM) — The tempo of the song.
  - Energy — The higher the value, the more energetic.
